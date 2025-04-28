@@ -1,0 +1,11 @@
+bitch = input ("what is your name?")
+year = int (input("what year were you born?"))
+age = str(2025-year)
+age2 = str(2026-year)
+print ("Hello " 
++ bitch
++ " you are "
++ age
++". Next year you will be "
++ age2
++" years old.")
