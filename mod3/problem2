@@ -6,6 +6,6 @@ print ("Hello "
 + bitch
 + " you are "
 + age
-+". Next year you will be "
++ " years old. Next year you will be "
 + age2
 +" years old.")
