@@ -1,1 +1,5 @@
-
+speak = input("What word do you want to say?")
+length = str(len(speak))
+first = int (input ("Chose a number between 0 and " + (length)))
+second = int (input ("Chose a second number between "+ str(first)+ " and "+ (length)))
+print(speak[first:second])
