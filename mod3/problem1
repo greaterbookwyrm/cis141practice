@@ -1,1 +1,3 @@
-
+speak = input("What word do you want to say?")
+number = int( input ("how many times do you want to say it?"))
+print(speak * number)
