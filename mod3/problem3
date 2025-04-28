@@ -1,1 +1,3 @@
-
+speak = input("What do you want to say?")
+find = input ("what word are you looking for within that?")
+print(find in speak)
