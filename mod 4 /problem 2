@@ -1,0 +1,10 @@
+'''
+The headlights of a car should only automatically turn on when the daylight outside is 
+below a certain threshold. If a sensor threshold is below the number 8, 
+print "Headlights On"; otherwise, print "Headlights Off".
+'''
+threshold =(int(input ("From 1-10 with 10 being full daylight and 1 being pitch black how dark is it outside?")))
+if threshold <= 8:
+    print("Headlights On")
+else:
+    print("Headlights Off")
