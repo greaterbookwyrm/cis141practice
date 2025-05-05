@@ -1,0 +1,15 @@
+'''
+A       B       A AND B     A OR B      NOT B
+----------------------------------------------
+True    True    True        False       False       
+False   True    False       True        False
+True    False   False       True        True
+False   False   False       True        True
+I am not sure what table was wanted here D: So I did my best to make all the tables?
+
+
+B       Not B
+----------
+True    False
+False   True
+'''
