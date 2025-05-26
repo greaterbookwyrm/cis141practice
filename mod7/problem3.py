@@ -30,6 +30,8 @@ def type_advantage(attacker, defender):
             result = win
         elif lowerdef == "grass":
             result = draw
+    else:
+        result = "Please play by the rules"
     return result
 
 
