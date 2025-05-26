@@ -9,7 +9,7 @@ def level_up(experience):
     elif experience >= 200:
         level = "you are level 3! Or higher!"
     else:
-        cost = "Please make sure to use numbers not words"
+        level = "Please make sure to use numbers not words"
 
     return level
 
