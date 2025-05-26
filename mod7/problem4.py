@@ -1,7 +1,6 @@
 old = (int(input("how old are you?")))
 car = (input("are you taking a car across the ferry?"))
 
-# changed the name of "input" because that is a python function and I am lazy
 def ferry_fare(age, vehicle):
     lowercar = vehicle.lower()
     cost = 0
