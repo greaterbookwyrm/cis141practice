@@ -1,4 +1,3 @@
-file=open("gardening_tips.txt", "r")
-content = file.read()
-print(content)
-file.close()
+with open("gardening_tips.txt","r") as tips: 
+  for line in tips: 
+      print(line, end="")
